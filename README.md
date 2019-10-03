@@ -1,2 +1,8 @@
 # LSTMEarthquakePrediction
+
+
 Our primary objective is to forecast the earthquakes in a given region using the dataset, utilising all the variables available to us by observing nature.
+
+Earthquake is a phenomenon in which the tectonic plates of the lithosphere rub against each other to release energy, thereby resulting in tremors on the crust. The epicentre of an earthquake, if lies under human establishment, can cause casualties and huge damage to infrastructure. If it lies near coastal regions, it can lead to tsunamis and loss of life.
+Unlike hurricanes or cyclones, earthquakes are independent from weather conditions and therefore it is tough for geologists to predict the earthquakes. Before earthquake occurs, it does not lead us to many variables which can be extracted from nature, to help us predict its outcome. Therefore it becomes a challenge to predict the earthquakes that can happen in future. If the earthquakes could be predicted beforehand, it could prevent economic and human losses. Geologists keep a record of the earthquakes that have occurred in the past, with all the relevant information pertaining to the event; few of them being magnitude of the earthquake, latitude/longitude of the epicentre, occurrence depth, tectonic plates involved, etc.
+We are proposing an implementation of an algorithm(Long Short-Term memory) that can help us to predict the earthquakes around the Indian tectonic plate and the Eurasian tectonic plate , using previous data (both spatial and temporal) that has been collected by geologists and we check the accuracy of our results by comparing the actual data with the predicted outputs using the two models.
